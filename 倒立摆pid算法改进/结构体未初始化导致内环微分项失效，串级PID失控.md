@@ -82,3 +82,4 @@
 
 p->Filtered\_D = p->FilterCoeff \* p->raw\_D + (1.0f - p->FilterCoeff) \* p->Filtered\_D;
 
+完整源码见：[完整代码](./改进代码/)
