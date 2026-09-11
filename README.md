@@ -11,14 +11,4 @@ A record of problems encountered and solutions during the development and debugg
 - 改进记录：对串级 PID、微分先行等策略的错误根因、修复与优化思路的记录，以及实际代码示例。
 - 完整代码：`标准库到HAL库的移植/倒立摆的最终实现完整代码/` 包含 main.c、PID.c、tim.c、adc.c、OLED.c、encoder.c 等模块化 C 文件。
 
-## 仓库结构
-Simulink调试/
-  Simulink调试日志.md          Simulink 建模与脚本生成的调试笔记
-倒立摆pid算法改进/
-  结构体未初始化...md          串级 PID 问题排查与解决
-  新的优化办法.md              PID 改进思路
-标准库到HAL库的移植/
-  倒立摆的最终实现.md          最终实现的概述
-  倒立摆的最终实现完整代码/    主程序与外设驱动代码（main.c, PID.c, OLED.c, tim.c, adc.c, encoder.c, serial.c ...）
-齐格勒-尼科尔斯（Z-N）法进行系统性参数整定/
-  Z-N法的...md                 Ziegler–Nichols 尝试记录与思路
+
